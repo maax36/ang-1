@@ -1,0 +1,32 @@
+.footer {
+  background: #405cee;
+  color: #fff;
+  text-align: center;
+  padding: 50px 100px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.footer p:nth-child(2) {
+  font-size: 14px;
+}
+
+.footer button {
+  background: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 15px;
+}

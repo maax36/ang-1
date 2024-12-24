@@ -1,0 +1,39 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+section>div {
+  background: #f1f1f1;
+  border-radius: 30px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+}
+
+section > div:nth-child(3) {
+  background-color: #405cee;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 1px #c8c8c8 solid;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  padding: 15px 0;
+  line-height: 22px;
+}
+
+.icon {
+  font-size: 50px;
+  color: #2e2e2e;
+}

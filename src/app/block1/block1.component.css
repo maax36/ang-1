@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    width: 300px;
+}
+
+section > div {
+    flex: 1;
+}
+
+section > div:nth-child(2){
+    position: relative;
+    background: linear-gradient(to bottom, #3bbec3, #405cee);
+    border-radius: 30px;
+}
+
+section > div:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(/s3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.app {
+    display: flex;
+    gap: 20px;
+}
+
+.app button {
+    padding: 5px 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #535353;
+    border: 1px #535353 solid;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
